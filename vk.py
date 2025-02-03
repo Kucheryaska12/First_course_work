@@ -2,6 +2,7 @@ import requests
 import json
 import logging
 import configparser
+from pprint import pprint
 
 logging.basicConfig(level=logging.DEBUG, filename="log.log",filemode="w",
                     format="%(asctime)s %(levelname)s %(message)s")
@@ -92,8 +93,8 @@ class Ya:
         logging.info(f'Photo {photo_name} added to folder {album_name}')
         return response.json()
 
-access_token = config['Token']['vk_token'] # токен полученный из инструкции
-ya_token = config['Token']['ya_token']
+access_token = config['Tokens']['vk_token'] # токен полученный из инструкции
+ya_token = config['Tokens']['ya_token']
 user_id = 54450950 # идентификатор пользователя vk
 
 

@@ -1,0 +1,23 @@
+2025-02-03 22:26:23,049 DEBUG Starting new HTTPS connection (1): cloud-api.yandex.net:443
+2025-02-03 22:26:23,643 DEBUG https://cloud-api.yandex.net:443 "PUT /v1/disk/resources?path=VK_photos HTTP/1.1" 409 253
+2025-02-03 22:26:23,644 INFO Folder VK_photos created in ya.disk
+2025-02-03 22:26:23,646 DEBUG Starting new HTTPS connection (1): api.vk.com:443
+2025-02-03 22:26:23,950 DEBUG https://api.vk.com:443 "GET /method/photos.get?access_token=vk1.a.Cnhfoxn0cqsv_tSspf8FT7vNQF0HY7LeK6tEC97VrGpIVOy3G2kuRXi6eXUilPKXR8nxZCgtncxU1QUL6ql6pySIyShKNHatRjY31-xzyESEgehqmo-uHQywIuJZPfwZYOF0Lil6abpu5u5le8WvrMG5y2jWq-LL0CBZum7XfYU8aIHU8UQjvsFhuT7UA1TC&v=5.199&owner_id=54450950&album_id=wall&extended=1 HTTP/1.1" 200 9793
+2025-02-03 22:26:23,957 INFO 54450950 users photo info from album wall saved in Response
+2025-02-03 22:26:23,961 INFO 5 biggest photos added to photo_size_max_album
+2025-02-03 22:26:23,964 DEBUG Starting new HTTPS connection (1): cloud-api.yandex.net:443
+2025-02-03 22:26:24,717 DEBUG https://cloud-api.yandex.net:443 "POST /v1/disk/resources/upload?path=VK_photos%2F20.jpg&url=https%3A%2F%2Fsun9-34.userapi.com%2Fs%2Fv1%2Fif1%2FSAy95CC2dz0vzlRIOqWapu4K2Ie2SWz1T2uVY2jUq98HLnsTYwy-12BBiLT99hJXF6LCKQ.jpg%3Fquality%3D96%26as%3D32x21%2C48x32%2C72x48%2C108x72%2C160x107%2C240x160%2C360x240%2C480x320%2C540x360%2C640x426%2C720x480%2C1080x720%2C1280x853%26from%3Dbu%26cs%3D1280x853 HTTP/1.1" 202 156
+2025-02-03 22:26:24,717 INFO Photo 20 added to folder VK_photos
+2025-02-03 22:26:24,720 DEBUG Starting new HTTPS connection (1): cloud-api.yandex.net:443
+2025-02-03 22:26:25,281 DEBUG https://cloud-api.yandex.net:443 "POST /v1/disk/resources/upload?path=VK_photos%2F20_1461622426.jpg&url=https%3A%2F%2Fsun9-27.userapi.com%2Fs%2Fv1%2Fif1%2F6ykHKKNlOT1D_YStE49yDEILledYDfBmP_HXvmk8TjQiKdD5B5tGvHVs7H0ldmE_B0ttaw.jpg%3Fquality%3D96%26as%3D32x43%2C48x64%2C72x96%2C108x144%2C160x213%2C240x320%2C360x480%2C480x640%2C540x720%2C640x853%2C720x960%2C768x1024%26from%3Dbu%26cs%3D768x1024 HTTP/1.1" 202 156
+2025-02-03 22:26:25,281 INFO Photo 20_1461622426 added to folder VK_photos
+2025-02-03 22:26:25,285 DEBUG Starting new HTTPS connection (1): cloud-api.yandex.net:443
+2025-02-03 22:26:25,636 DEBUG https://cloud-api.yandex.net:443 "POST /v1/disk/resources/upload?path=VK_photos%2F16.jpg&url=https%3A%2F%2Fsun9-21.userapi.com%2Fs%2Fv1%2Fif1%2FdwsQl31LINWYAi-T0IX2-XkBqlp6IsAZJxOvEpl3B6yYdJ9DKuaSukZ6w9j0k4L_6xpaw9aF.jpg%3Fquality%3D96%26as%3D32x24%2C48x36%2C72x54%2C108x81%2C160x120%2C240x180%2C360x270%2C480x360%2C540x405%2C640x480%2C720x540%2C1080x810%2C1280x960%2C1440x1080%2C2560x1920%26from%3Dbu%26cs%3D1280x960 HTTP/1.1" 202 156
+2025-02-03 22:26:25,637 INFO Photo 16 added to folder VK_photos
+2025-02-03 22:26:25,640 DEBUG Starting new HTTPS connection (1): cloud-api.yandex.net:443
+2025-02-03 22:26:26,407 DEBUG https://cloud-api.yandex.net:443 "POST /v1/disk/resources/upload?path=VK_photos%2F13.jpg&url=https%3A%2F%2Fsun9-75.userapi.com%2Fs%2Fv1%2Fif1%2FXPvNqpo-fp86jCwF8SECa48smNUjTZfFbHkFvlgoz_gMYjbn9wpCuwH0PtHpK3_ju-yjbWXH.jpg%3Fquality%3D96%26as%3D32x24%2C48x36%2C72x54%2C108x81%2C160x120%2C240x180%2C360x270%2C480x360%2C540x405%2C640x480%2C720x540%2C1080x810%2C1280x960%2C1440x1080%2C2560x1920%26from%3Dbu%26cs%3D1280x960 HTTP/1.1" 202 156
+2025-02-03 22:26:26,408 INFO Photo 13 added to folder VK_photos
+2025-02-03 22:26:26,411 DEBUG Starting new HTTPS connection (1): cloud-api.yandex.net:443
+2025-02-03 22:26:27,022 DEBUG https://cloud-api.yandex.net:443 "POST /v1/disk/resources/upload?path=VK_photos%2F12.jpg&url=https%3A%2F%2Fsun9-13.userapi.com%2Fs%2Fv1%2Fif1%2FgQsoZ_lJfxcJUn58W-GbJhyvBIyPnD6fX86MzXWTpZGCl1UVcmsbflEbYEh5D6YVsmbWFgye.jpg%3Fquality%3D96%26as%3D32x43%2C48x64%2C72x96%2C108x144%2C160x213%2C240x320%2C360x480%2C480x640%2C540x720%2C640x853%2C720x960%2C1080x1440%2C1280x1707%2C1440x1920%2C1620x2160%26from%3Dbu%26cs%3D810x1080 HTTP/1.1" 202 156
+2025-02-03 22:26:27,022 INFO Photo 12 added to folder VK_photos
+2025-02-03 22:26:27,024 INFO photo info added to photos_info.json file
